@@ -94,6 +94,7 @@ int main()
 
         cout << "\t\tTIC-TAC-TOE" << endl;
 
+        // 3*3 matrix for the tic tac toe board
         board = {{'1', '2', '3'}, {'4', '5', '6'}, {'7', '8', '9'}};
         int currPlayer = 1, pos;
         char player1, player2, mark;

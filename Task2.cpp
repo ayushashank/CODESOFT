@@ -9,6 +9,7 @@ using namespace std;
 
 int main()
 {
+    system("cls"); // To clear the terminal
     cout << endl;
 
     float num1, num2;

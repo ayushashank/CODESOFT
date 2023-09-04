@@ -54,7 +54,6 @@ void addTask(vector<TodoItem> &todoItems)
          << "Enter the task to add: ";
 
     string desc;
-    // cin.clear();
     cin.ignore();
     getline(cin, desc);
 
@@ -134,6 +133,7 @@ void removeTask(vector<TodoItem> &todoItems)
 
 int main()
 {
+    system("cls"); // To clear the terminal
 
     vector<TodoItem> todoItems;
 

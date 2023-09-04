@@ -8,7 +8,8 @@ Create a program that generates a random number and asks the user to guess it. P
 using namespace std;
 int main()
 {
-    srand(time(0));
+    system("cls");
+    srand(time(0)); // To clear the terminal
     // The number will be between 0 and 100
     int num = rand() % 100;
 
